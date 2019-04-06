@@ -1,0 +1,32 @@
+!<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Header-->
+    <meta charset="utf-8"/>
+    <title>Courses</title>
+</head>
+
+  <body>
+    <div>
+      <h2> Operating system course </h2>
+
+      <h3> Project 3 : adding new system calls </h3>
+      
+      <p> How to compile the linux kernel </p>
+
+        To compile the linux kernel, you must first download the source codes 
+        of the linux version you want to install. After having installed certain
+        necessary tools, the next step is to configure the kernel. Indeed, the primary
+        reason why people recompile the linux kernel is to add or remove useless functionalities.
+        This can be done by isssuing the make oldconfig and make menu config commands respectively.
+        There are two ways a programmer can modify his or her kernel functionalities. The first way is to
+        directly modify it, the second way is to add and or remove modules. The second way consumes less time
+        but is less powerfull as we can not completle modify the kernel.
+        After the configuration phase, compile the kernel by issuing the 
+        make ARCH=i386 bzImage -j4 and make make ARCH=i386 modules to compile kernel and modules.
+        This will produce .o files. Then, we need to install those by doing a make install and make modules install.
+        Then rebooting the machine to apply changes
+    </div>
+  </body>
+
+</html>
