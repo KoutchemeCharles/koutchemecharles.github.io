@@ -6,7 +6,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /* 
@@ -14,23 +14,27 @@
 */
 
 #header {
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed; /* keep the position of the nav bar fixed */
   top: 0; /* define where the nav bar is position relatively to the top*/
   width: 100%;
-  background-color: #3AAFA9;/*#1B4F72;*/
   color: #FEFFFF;
 }
 
+/* Charles Koutcheme logo on upper left */
 #header a { /* How the element position itself in its container*/
+  float:left; color: #feffff; font-weight: 800; text-align: left;
   color: #17252A;
-  text-align: center;
   text-decoration: none;
+  color: #FEFFFF;
   padding: 14px 16px; /*generate space around element's content, inside of any defined borders */
 }
 
+/*
+Koutcheme */
 #header a :nth-child(2){
   border-radius: 2px;
   background: #17252A;
@@ -55,8 +59,23 @@
 
 #header .toggle-btn:hover span {
   cursor: pointer;
-  width:  30px;
-  height: 1px;
+  background-color: #17252A;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
 
@@ -73,16 +92,50 @@
   cursor: pointer;
 }
 
+/* position the "contact" and what is shown on hover */
+.dropdown {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.dropdown-content {
+  border-radius: 30%;
+  padding: 30px;
+  display: none;
+  text-align: center;
+  position: absolute;
+  color: #FEFFFF;
+  background-color: #17252A;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+}
+
+/* email icon */
+.dropdown-content i {
+  font-size: 30px;
+}
+
+/* Show email adress on hover */
+.dropdown:hover .dropdown-content {display: block;}
 
 /* 
   Sidebar
  */
 
+ ul li {
+   list-style: none;
+ }
+
+ a:visited {
+  color: inherit;
+}
+
 #sidebar {
   position: fixed;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   right:-200px;
   bottom: 0;
@@ -90,6 +143,7 @@
   height: 90%;
   background-color: #17252A; 
   transition: all 200ms linear;
+  border-radius: 30%;
 }
 
 #sidebar ul li {
@@ -100,10 +154,16 @@
   padding: 15px 10px;
 }
 
-#sidebar li:hover{
+#sidebar li:hover {
   color:  #17252A;
   background-color: #FEFFFF;
   cursor: pointer;
+}
+
+#sidebar a {     
+  display: inline-block;     
+  position: relative;         
+  padding: 25px;     
 }
 
 #sidebar.active {
@@ -111,6 +171,28 @@
 }
 
 
+/*
+Heading 
+*/
+
+.heading {
+  text-align: center;
+  color: #17252A;
+ /* background-color: #2B7A78;/*#17252A;*/
+  padding: 10px;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.heading :nth-child(1) {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.heading :nth-child(2) {
+  font-size: 20px;
+  font-weight: 600;
+}
 /*
 Home
 */
@@ -122,8 +204,90 @@ Home
   align-items: center; /** align the flex items vertically. */
   width: 100%;
   height: 100vh; /** set height with size of use screen */
-  background-color:  #3AAFA9;  /*;#88BDBC;/*#EAE7DC;/*#116466;*/
+  background-color:  #3AAFA9; 
   color: #FEFFFF;
+}
+
+
+/*
+Welcoming
+*/
+
+#welcoming {
+  text-align: center;
+  background-color: #17252A;
+  color: white;
+  padding: 30px;
+}
+
+#welcoming h3 {
+  font-size: 40px;
+}
+
+#welcoming h4 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+#welcoming p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+
+.section-content {
+  margin: 20px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.section-content p {
+  margin: 20px;
+}
+
+.section-content h4 {
+  display: inline;
+  color: #FEFFFF;
+  border-radius: 10px;
+  background: #254E58; /*;#88BDBC;;*/
+  padding: 5px 10px;
+  margin: 15px;
+}
+
+
+/* About me */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #17252A;
+  background-color: #3AAFA9; /*#41B3A3;*/
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 30px;
+}
+
+
+.listing {
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*
+Skills
+*/
+
+#skills {
+  height: auto;
+}
+
+#skills ul li {
+  list-style: none;
 }
 
 /*
@@ -132,4 +296,18 @@ Other
 a:link {
   color: inherit;
   text-decoration: none;
+  
 }
+
+footer {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: #17252A;
+}
+

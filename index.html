@@ -9,31 +9,36 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Using fontawsome icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <title>Charles' pages</title>
+        <title> Charles' webpage </title>
     </head>
 
     <body>  
         <main>
             <div id="header">
 
-                <a href="#home" style="float:left; color: #feffff; font-weight: 800; text-align: left;" > 
+                <a href="#home" > 
                     <div> CHARLES </div> <div> KOUTCHEME </div> </a>
 
-                <p class="button" 
-                style="margin-left: auto;
-                       margin-right: 30px;"> Contact </p>
+                <div class="dropdown">
+                        <p class="button"> Contact </p>
+                        
+                        <div class="dropdown-content">
+                                <i class="material-icons"> email </i> 
+                                <p> charles.koutcheme@gmail.com </p> 
+                        </div>
+                </div>
+                
         
-                <div class="toggle-btn" style="margin-right: 30px;" onclick="toggleSidebar()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div class="toggle-btn" style="margin-right: 30px;" onclick="toggleSidebar(this)">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
                 </div>
             </div>
 
             <div id="sidebar">
                 <ul>
-                    <li> <a href="#home">  Home </a></li>
+                    <li> <a href="#home"> Home </a></li>
                     <li> <a href="#about">  About </a> </li>
                     <li> <a href="#skills">  Skills </a> </li>
                 </ul>
@@ -46,12 +51,81 @@
                 <br>
                 <p class="button"> <a href="/files/resume.pdf" download> Download cv</a> </p>
                 <br>
-                <p> Learn more about me bellow </p>
+                <p> Learn more </p>
+                <p><i class="arrow down"></i></p>
+            </div>
+
+            <div id="welcoming">
+                <h3> Hello World !</h3>
+                <h4> Welcome to my page </h4>
+                <p> I'm a computer science student from the University of Liège. 
+                        I will graduate in June 2019 with a bachelor degree 
+                        and I'm looking for new opportunities.</p>
+            </div>
+
+            <div id="about">
+                <div class="heading"> 
+                    <p> about me </p>
+                    <p> who I am </p>
+                </div>
+                <div class="section-content">   
+                    <div>
+                            <h4> Computer science </h4>
+
+                            <p> I always enjoyed understanding how things work. Computers really gained my
+                                    attention back in high school, at 11th grade, when I started learning how to code. 
+                                    I enjoy programming, and building things that can serve. 
+                                    In our modern society computer science knowledge gives us superpower.
+                                    I want to use the skills I'm acquiring to help those around me.
+                            </p>
+                            <h4> Sports </h4>
+                            <p>  I'm a sport addict. Come find me every week-end on 
+                                    the football fields and on the running tracks. 
+                                    I'm always ready for a new challenge.</p>
+                    </div>
+                   
+                </div>
+
+            </div>
+
+            <div id="skills" style="clear:both;">
+                <div class="heading"> 
+                        <p> skills </p>
+                        <p> what I know  </p>
+                 </div>
+
+                 <div class="section-content">
+                     <div>
+                         <h4> Programming languages </h4>
+                         <ul class="listing">
+                             <li> <img src="images/C.png"  alt="C" width="120" height="120"> </li>
+                             <li> <img src="images/C++.png" alt="C++" width="100" height="100"> </li>
+                             <li> <img src="images/Java.png" alt="Java" width="250" height="120"> </li>
+                             <li> <img src="images/python2.png" alt="Python" width="100" height="100"> </li>
+                         </ul>
+
+                         <h4> Web developement </h4>
+                         <ul class="listing">
+                            <img src="images/HTML.png" alt="HTML" alt="C" width="100" height="100">
+                            <img src="images/CSS.svg" alt="CSS" alt="C" width="100" height="100">
+                            <img src="images/JS.jpg" alt="JavaScript" alt="C" width="100" height="100">
+                         </ul>
+                     </div>
+                     <hr>
+                    <p>
+                        I have learned a wide variety of concepts throughout my bachelor degree and some extra-curricular activities.
+                        I'm now comfortable with the design and analysis of complex systems. I try to use
+                        my knowledge and my creativity in order to build elegant and efficient programs. In particular, 
+                        I have an affinity with object oriented programming, and low level programming languages
+                        such as C and C++.
+                    </p>
+                 </div>
+
             </div>
         </main>
 
         <footer>
-
+            <p> &#169; Charles Koutcheme 2019 </p>
         </footer>
 
     </body>
