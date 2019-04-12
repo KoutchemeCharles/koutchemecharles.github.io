@@ -1,68 +1,135 @@
-@font-face {
-  font-family: "Carlito";
-  src: url("C:\Users\Charles Koutcheme\Documents\fonts\carlito") format("truetype");
-}
 
+
+/* 
+  Whole document 
+*/
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Carlito', monospace;
+  font-family: 'Roboto', sans-serif;
 }
 
-header {
+/* 
+  Header 
+*/
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: fixed; /* keep the position of the nav bar fixed */
   top: 0; /* define where the nav bar is position relatively to the top*/
   width: 100%;
-  background-color: white;
-  color: black;
+  background-color: #3AAFA9;/*#1B4F72;*/
+  color: #FEFFFF;
 }
 
-header .CK {
-  float: left;
-}
-/* Style the links inside the navigation bar */
-header a {
-  float: right; /* How the element position itself in its container*/
-  color: black;
+#header a { /* How the element position itself in its container*/
+  color: #17252A;
   text-align: center;
   text-decoration: none;
   padding: 14px 16px; /*generate space around element's content, inside of any defined borders */
 }
 
-
-header a:hover {
-  background-color: #545C66;
+#header a :nth-child(2){
+  border-radius: 2px;
+  background: #17252A;
+  padding: 2px 4px;
 }
 
-.main {
-  margin-top: 50px;/* Add a top margin to avoid content overlay */
+#header .toggle-btn {
+  padding-right: 10px;
 }
 
-.welcoming {
-  text-align: center;
+#header .toggle-btn:hover {
+  cursor: pointer;
 }
+
+#header .toggle-btn span {
+  display: block;
+  width:  30px;
+  height: 5px;
+  background-color: #FEFFFF;
+  margin: 5px 0px;
+}
+
+#header .toggle-btn:hover span {
+  cursor: pointer;
+  width:  30px;
+  height: 1px;
+}
+
+
+.button {
+  color: #FEFFFF;
+  border-radius: 10px;
+  background: #17252A;
+  padding: 5px 10px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #17252A;
+  cursor: pointer;
+}
+
+
+/* 
+  Sidebar
+ */
+
+#sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  right:-200px;
+  bottom: 0;
+  width: 200px;
+  height: 90%;
+  background-color: #17252A; 
+  transition: all 200ms linear;
+}
+
+#sidebar ul li {
+  color:  #FEFFFF;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 15px 10px;
+}
+
+#sidebar li:hover{
+  color:  #17252A;
+  background-color: #FEFFFF;
+  cursor: pointer;
+}
+
+#sidebar.active {
+  right: 0;
+}
+
+
+/*
+Home
+*/
 
 #home {
   display: flex;
+  flex-direction: column;
   justify-content: center; 
   align-items: center; /** align the flex items vertically. */
   width: 100%;
   height: 100vh; /** set height with size of use screen */
-  background-color: #1A5276;
-  color: white;
+  background-color:  #3AAFA9;  /*;#88BDBC;/*#EAE7DC;/*#116466;*/
+  color: #FEFFFF;
 }
 
-#about_me {
-  text-align: center;
-  width: 100%;
-  height: 100vh; /** set height with size of use screen */
-  background-color: #EA5471;
+/*
+Other
+*/
+a:link {
+  color: inherit;
+  text-decoration: none;
 }
-
-#resume {
-  width: 100%;
-  height: 100vh; /** set height with size of use screen */
-  background-color: red;
-  color: white;
-}
-

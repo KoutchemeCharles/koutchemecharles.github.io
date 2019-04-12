@@ -4,35 +4,55 @@
         <!-- Header-->
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="style.css" />
-        <title>Charles' portfolio</title>
+        <script src="script.js"></script>
+        <!-- Using google's icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Using fontawsome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>Charles' pages</title>
     </head>
 
-    <body>
-        <header>
-            <span class="CK">
-                <a href="#home"> C.K. </a>
-            </span>
-            <nav>
-                <a href="#resume"> resume </a>
-                <a href="#about_me"> about me </a>
-                <a href="#home"> home </a>
-            </nav>
-        </header>
+    <body>  
+        <main>
+            <div id="header">
 
-        <main class="main">
-            <section id = "home"> 
-                <div class="welcoming"> 
-                    <h1 style="font-size: 60px"> Well Hello There </h1>
-                    <br>
-                    <h3> I'm Charles, a computer science student.</h2>
+                <a href="#home" style="float:left; color: #feffff; font-weight: 800; text-align: left;" > 
+                    <div> CHARLES </div> <div> KOUTCHEME </div> </a>
 
-                    <p></p>
+                <p class="button" 
+                style="margin-left: auto;
+                       margin-right: 30px;"> Contact </p>
+        
+                <div class="toggle-btn" style="margin-right: 30px;" onclick="toggleSidebar()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-            </section>
+            </div>
+
+            <div id="sidebar">
+                <ul>
+                    <li> <a href="#home">  Home </a></li>
+                    <li> <a href="#about">  About </a> </li>
+                    <li> <a href="#skills">  Skills </a> </li>
+                </ul>
+            </div>
+                
+            <div id="home">
+                <h1 style="font-size: 70px"> CHARLES KOUTCHEME </h1>
+                <br>
+                <h3 style="font-size: 40px; color: #17252A"> Computer science student </h3>
+                <br>
+                <p class="button"> <a href="/files/resume.pdf" download> Download cv</a> </p>
+                <br>
+                <p> Learn more about me bellow </p>
+            </div>
         </main>
 
         <footer>
 
         </footer>
+
     </body>
 </html>
