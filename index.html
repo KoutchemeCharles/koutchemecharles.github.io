@@ -9,6 +9,9 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Using fontawsome icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Link to my LinkedIn -->
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
         <title> Charles' webpage </title>
     </head>
 
@@ -16,31 +19,30 @@
         <main>
             <div id="header">
 
-                <a href="#home" > 
+                <a href="#home" class="brand"> 
                     <div> CHARLES </div> <div> KOUTCHEME </div> </a>
-
-                <div class="dropdown">
-                        <p class="button"> Contact </p>
-                        
-                        <div class="dropdown-content">
-                                <i class="material-icons"> email </i> 
-                                <p> charles.koutcheme@gmail.com </p> 
-                        </div>
-                </div>
                 
-        
+                <div class="dropdown">
+                    <p class="button"> Contact </p>
+                    <div class="dropdown-content">
+                            <i class="material-icons"> email </i> 
+                            <p> charles.koutcheme@gmail.com </p>     
+                    </div>
+                </div>
+   
                 <div class="toggle-btn" style="margin-right: 30px;" onclick="toggleSidebar(this)">
-                    <span class="bar1"></span>
-                    <span class="bar2"></span>
-                    <span class="bar3"></span>
+                    <span class="bar1" class="bar"></span>
+                    <span class="bar2" class="bar"></span>
+                    <span class="bar3" class="bar"></span>
                 </div>
             </div>
 
             <div id="sidebar">
                 <ul>
-                    <li> <a href="#home"> Home </a></li>
-                    <li> <a href="#about">  About </a> </li>
-                    <li> <a href="#skills">  Skills </a> </li>
+                    <li onclick="scrollToWelcome('home')"> Home </li>
+                    <li onclick="scrollToWelcome('about')"> About </li>
+                    <li onclick="scrollToWelcome('skills')"> Skills </li>
+                    <li> <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="charles-koutcheme"><a class="LI-simple-link" href='https://be.linkedin.com/in/charles-koutcheme/en?trk=profile-badge'>LinkedIn</a></div></li>
                 </ul>
             </div>
                 
@@ -51,8 +53,9 @@
                 <br>
                 <p class="button"> <a href="/files/resume.pdf" download> Download cv</a> </p>
                 <br>
-                <p> Learn more </p>
-                <p><i class="arrow down"></i></p>
+                    <p style="padding-top: 20px;"> Learn more </p>
+                    <i class="fa fa-arrow-circle-down" id="arrow_down" onclick="scrollToWelcome('welcoming')"></i>
+            
             </div>
 
             <div id="welcoming">
@@ -62,12 +65,13 @@
                         I will graduate in June 2019 with a bachelor degree 
                         and I'm looking for new opportunities.</p>
             </div>
-
+           
             <div id="about">
                 <div class="heading"> 
                     <p> about me </p>
                     <p> who I am </p>
                 </div>
+                
                 <div class="section-content">   
                     <div>
                             <h4> Computer science </h4>
@@ -88,7 +92,7 @@
 
             </div>
 
-            <div id="skills" style="clear:both;">
+            <div id="skills">
                 <div class="heading"> 
                         <p> skills </p>
                         <p> what I know  </p>
@@ -111,7 +115,7 @@
                             <img src="images/JS.jpg" alt="JavaScript" alt="C" width="100" height="100">
                          </ul>
                      </div>
-                     <hr>
+                     
                     <p>
                         I have learned a wide variety of concepts throughout my bachelor degree and some extra-curricular activities.
                         I'm now comfortable with the design and analysis of complex systems. I try to use
@@ -120,7 +124,7 @@
                         such as C and C++.
                     </p>
                  </div>
-
+                
             </div>
         </main>
 

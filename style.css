@@ -33,6 +33,7 @@
   padding: 14px 16px; /*generate space around element's content, inside of any defined borders */
 }
 
+
 /*
 Koutcheme */
 #header a :nth-child(2){
@@ -132,14 +133,15 @@ Koutcheme */
 }
 
 #sidebar {
+  text-align: center;
   position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  right:-200px;
+  right:-150px;
   bottom: 0;
-  width: 200px;
+  width: 150px;
   height: 90%;
   background-color: #17252A; 
   transition: all 200ms linear;
@@ -150,7 +152,7 @@ Koutcheme */
   color:  #FEFFFF;
   list-style: none;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 20px;
   padding: 15px 10px;
 }
 
@@ -160,10 +162,10 @@ Koutcheme */
   cursor: pointer;
 }
 
-#sidebar a {     
+#sidebar li {     
   display: inline-block;     
   position: relative;         
-  padding: 25px;     
+  padding: 15px;     
 }
 
 #sidebar.active {
@@ -208,6 +210,14 @@ Home
   color: #FEFFFF;
 }
 
+#arrow_down {
+  font-size:48px;
+  color:#17252A;
+}
+
+#arrow_down:hover {
+  color: #FEFFFF;
+}
 
 /*
 Welcoming
@@ -231,9 +241,7 @@ Welcoming
 
 #welcoming p {
   font-size: 20px;
-  padding-bottom: 10px;
 }
-
 
 .section-content {
   margin: 20px;
@@ -263,7 +271,7 @@ Welcoming
   justify-content: center;
   align-items: center;
   color: #17252A;
-  background-color: #3AAFA9; /*#41B3A3;*/
+  background-color:  #3AAFA9; 
   width: 100%;
   height: 100vh;
   padding-bottom: 30px;
@@ -298,6 +306,11 @@ a:link {
   text-decoration: none;
   
 }
+/*
+.LI-profile-badge {
+  background-color: #FEFFFF;
+  color: #17252A;
+}*/
 
 footer {
   font-size: 15px;
