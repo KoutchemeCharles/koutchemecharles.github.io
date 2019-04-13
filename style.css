@@ -46,15 +46,15 @@ Koutcheme */
   padding: 2px 4px;
 }
 
-#header .toggle-btn {
+#header #toggle-btn {
   padding-right: 10px;
 }
 
-#header .toggle-btn:hover {
+#header #toggle-btn:hover {
   cursor: pointer;
 }
 
-#header .toggle-btn span {
+#header #toggle-btn span {
   display: block;
   width:  30px;
   height: 5px;
@@ -62,7 +62,7 @@ Koutcheme */
   margin: 5px 0px;
 }
 
-#header .toggle-btn:hover span {
+#header #toggle-btn:hover span {
   cursor: pointer;
   background-color: #17252A;
 }
