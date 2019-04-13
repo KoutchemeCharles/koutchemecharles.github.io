@@ -19,9 +19,17 @@
         <main>
             <div id="header">
 
-                <a href="#home" class="brand"> 
-                    <div> CHARLES </div> <div> KOUTCHEME </div> </a>
+                <div onclick="scrollToWelcome('home')" id="brand"> 
+                    <div> CHARLES </div> <div> KOUTCHEME </div> </div>
                 
+                <div id="likedin-toggle-btn" onclick="toggleINSidebar()">
+                    <p class="button"> linkedin </p>
+                </div>
+
+                <div id="likedin-sidebar">
+                        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="vertical" data-theme="light" data-vanity="charles-koutcheme"><a class="LI-simple-link" href='https://be.linkedin.com/in/charles-koutcheme?trk=profile-badge'>Charles Koutcheme</a></div>
+                </div>
+
                 <div class="dropdown">
                     <p class="button"> Contact </p>
                     <div class="dropdown-content">
@@ -42,7 +50,6 @@
                     <li onclick="scrollToWelcome('home')"> Home </li>
                     <li onclick="scrollToWelcome('about')"> About </li>
                     <li onclick="scrollToWelcome('skills')"> Skills </li>
-                    <li> <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="charles-koutcheme"><a class="LI-simple-link" href='https://be.linkedin.com/in/charles-koutcheme/en?trk=profile-badge'>LinkedIn</a></div></li>
                 </ul>
             </div>
                 

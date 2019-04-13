@@ -25,7 +25,7 @@
 }
 
 /* Charles Koutcheme logo on upper left */
-#header a { /* How the element position itself in its container*/
+#header #brand { /* How the element position itself in its container*/
   float:left; color: #feffff; font-weight: 800; text-align: left;
   color: #17252A;
   text-decoration: none;
@@ -33,10 +33,14 @@
   padding: 14px 16px; /*generate space around element's content, inside of any defined borders */
 }
 
+#header #brand:hover {
+  cursor: pointer;
+}
+
 
 /*
 Koutcheme */
-#header a :nth-child(2){
+#header #brand :nth-child(2){
   border-radius: 2px;
   background: #17252A;
   padding: 2px 4px;
@@ -95,7 +99,7 @@ Koutcheme */
 
 /* position the "contact" and what is shown on hover */
 .dropdown {
-  margin-left: auto;
+  margin-left: 10px;
   margin-right: 30px;
 }
 
@@ -172,7 +176,24 @@ Koutcheme */
   right: 0;
 }
 
+#likedin-sidebar {
+  position: fixed;
+  left: -250px;
+  bottom: 0;
+  width: 250px;
+  height: auto;
+  background-color: #17252A; 
+  transition: all 200ms linear;
+}
 
+#likedin-toggle-btn {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+#likedin-sidebar.active {
+  left: 0;
+}
 /*
 Heading 
 */
