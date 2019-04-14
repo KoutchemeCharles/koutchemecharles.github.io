@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#title {
+  margin: 30px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#window {
+  width: 700px;
+  height: 500px;
+  border: outset 2px black;
+  border-collapse: collapse;
+}
+
+#bar {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: grey;
+}
+
+#bar :nth-child(1) {
+  background: red;
+}
+
+#bar :nth-child(2) {
+  background: orange;
+}
+
+#bar :nth-child(3) {
+  background: green;
+}
+
+#bar :nth-child(4) {
+  margin-left: auto;
+}
+
+.button {
+  width: 3%;
+  height: 70%;
+  border-radius: 50%;
+  border: 1px outset;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#console {
+  background-color: #212121;
+  max-width: inherit;
+  height: 95%;
+  color: white;
+}
+
+#textarea {
+  background: none;
+  border: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+
+
