@@ -35,3 +35,15 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### Notes
+
+GitHub partnered with Let's Encrypt in order to provides its users with free HTTPS connection. Let's encrypt certificates are available for a specific duration, but GitHub servers should automatically recreate a new certificate for our sites. However, this might fail sometimes (might be a bug) if you use a custom domain name. So what whill happen is that when people will try to reach your site, their browsers will display a NET::ERR_CERT_DATE_INVALID error page.  To solve the problem, check this post: https://help.github.com/en/articles/troubleshooting-custom-domains#https-errors
+
+Personally, I :
+
+-removed my custom domain name from my page's settings
+-removed then readded CNAME records
+-added back my custom domain name from my page's settings
+-deleted and readded A records and CNAME record to my github page default name: koutchemecharles.github.io
+The "enforce HTTPS"
