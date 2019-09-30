@@ -43,4 +43,17 @@ function changeHeader() {
   }
 }
 
+function openCRModal() {
+  var CRModal = document.getElementById("CRModal");
+  CRModal.style.display="flex";
+}
+
+function closeCRModal() {
+  var CRModal = document.getElementById("CRModal");
+  CRModal.style.display="none";
+
+}
+
 window.addEventListener("scroll", changeHeader);
+
+

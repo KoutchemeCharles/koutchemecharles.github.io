@@ -37,7 +37,7 @@
                 </div>
 
                 <div id="likedin-sidebar">
-                    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="charles-koutcheme"><a class="LI-simple-link" href='https://be.linkedin.com/in/charles-koutcheme/en?trk=profile-badge'>Charles Koutcheme</a></div>
+                    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="charles-koutcheme"><a class="LI-simple-link" href='https://be.linkedin.com/in/charles-koutcheme/en?trk=profile-badge' target="_blank">Charles Koutcheme</a></div>
                 </div>
 
                 <div class="dropdown">
@@ -79,8 +79,8 @@
                 <h3> Hello World !</h3>
                 <h4> Welcome to my page </h4>
                 <p> I'm a computer science student from the University of Liège. 
-                        I will graduate in June 2019 with a bachelor degree 
-                        and I'm looking for new opportunities.</p>
+                        I graduated in June 2019 with a bachelor's degree 
+                        and I'm currently looking for an internship.</p>
             </div>
            
             <div id="about">
@@ -134,7 +134,7 @@
                      </div>
                      
                     <p>
-                        I have learned a wide variety of concepts throughout my bachelor degree and some extra-curricular activities.
+                        I have learned a wide variety of concepts throughout my bachelor's degree and some extra-curricular activities.
                         I'm now comfortable with the design and analysis of complex systems. I try to use
                         my knowledge and my creativity in order to build elegant and efficient programs. In particular, 
                         I have an affinity with object oriented programming, and low level programming languages
@@ -143,6 +143,52 @@
                  </div>
                 
             </div>
+
+            <div id="projects">
+
+                <div class="heading">
+                    <p> projects </p>
+                    <p> what I did </p>
+                </div>
+
+                <div id="projects-cards">
+
+                    <div class="project-card" onclick="openCRModal()">
+                        
+                        <img src="images/cr.jpg" class="project-card-image"  alt="configuroute-banner"/>
+                        
+                        <div class="project-card-information">
+                            <h5 class="project-card-title"> <b> Configuroute </b></h5>
+                            <p class="project-card-description"> A configurator for individual route planners </p>
+                        </div>
+                    </div>
+
+                </div>
+                    
+            </div>
+
+            <div id="CRModal">
+                <div class="modal-content">
+                    <div class="modal-close" onclick="closeCRModal()"> <i class="fa fa-times" aria-hidden="true"></i>   </div>
+                    <img src="images/crinaction.gif" alt="demo" class="project-demo"/>
+                    <div class="modal-content-description">
+                        <h5> Build during the  <a href="https://2019.summerofcode.be/" style="color:#f14a3b" target="_blank"> Open Summer of Code 2019 </a>  </h5>
+                        <h6> Configuroute is a protoype web application build for the Open Planner Team. 
+                            The app is an open source software for creating mobility profiles for route planners using the OpenStreetMap database. </h6>
+
+                        <h6> Available at: <a href="http://configuroute.be" target="_blank"> configuroute.be </a> </h6>
+
+                    </div>
+                    <div class="modal-buttons">
+                            <a href="https://github.com/oSoc19/configuroute" target="_blank"> <i class="fa fa-github" style="font-size:48px;color:red"></i> </a>
+                            
+                    </div>
+                                      
+                    
+                </div>
+            </div>
+
+
         </main>
 
         <footer>
