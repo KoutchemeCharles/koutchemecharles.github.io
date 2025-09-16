@@ -6,5 +6,5 @@ paperurl: https://koutche.me/files/sigcse26_rubric_feedback.pdf
 permalink: 
 date: 15-09-2025
 venue: 'To appear in Proceedings of the 57th ACM Technical Symposium on Computer Science Education (SIGCSE TS 2026)'
-image:
+image: images/papers/sigcse26.png
 ---
