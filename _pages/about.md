@@ -21,6 +21,9 @@ The broader goal of my research is to move beyond systems that rely on large lan
 > Two papers accepted at SIGCSE TS 2026!
 > * Aligning Small Language Models for Programming Feedback: Towards Scalable Coding Support in a Massive Global Course (first author)
 > * Fine-Tuning Open-Source Models as a Viable Alternative to Proprietary LLMs for Explaining Compiler Messages (second author)
+> The first publication is the result of my research visit at Stanford. We created a [presentation page](https://koutche.me/cip25-aiep/).
+> The second publication came out from a collaboration with researchers at The University of New South Wales.
+
 
 > **27 May 2025**  
 > Our paper *"Reinforcement Learning for Programming Feedback: Aligning Small Language Models Without Human Preferences"* (first author) has been accepted to [CSEDM 2025](https://sites.google.com/view/csedm-workshop-edm25/home).
