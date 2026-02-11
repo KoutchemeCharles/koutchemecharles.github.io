@@ -19,7 +19,7 @@ The broader goal of my research is to move beyond systems that rely on large lan
 
 > **5 December 2025**  
 > My Ph.D thesis has been accepted for defense!
-> 
+> [Defense information](https://www.aalto.fi/en/events/public-defence-in-computer-science-msc-charles-koutcheme)
 
 > **15 September 2025**  
 > Two papers accepted at SIGCSE TS 2026!
