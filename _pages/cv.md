@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, Liege University, 2019
+* Ph.D in Technology, Aalto University, 2026
 * M.S. in Computer Science, Liege University, 2021
-* Ph.D in Technology, Aalto University, 2026 (expected)
+* B.S. in Computer Science, Liege University, 2019
 
 Work experience
 ======
@@ -34,7 +34,7 @@ Work experience
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
