@@ -13,7 +13,7 @@ The broader goal of my research is to move beyond systems that rely on large lan
 ---
 ## Recent News
 
-<div style="height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 0 1em; margin-top: 0.5em;">
+<div style="height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 0 1em; margin-top: 0.5em;" markdown="1">
 
 > **5 December 2025**  
 > My Ph.D thesis has been accepted for defense!
