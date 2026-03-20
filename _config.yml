@@ -11,10 +11,56 @@ locale                   : "en-US"
 title                    : "Charles Koutcheme"
 title_separator          : "-"
 name                     : &name "Charles Koutcheme"
-description              : &description "Doctoral student working on applications of source code modelling for computing education."
+description              : &description "AI in Education"
 url                      : https://koutchemecharles.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "KoutchemeCharles/koutchemecharles.github.io"
+
+
+# Site Author
+author:
+  name             : "Charlie"
+  avatar           : "Aalto-Talent-Expo-20221161.JPG"
+  pronouns         : "He/Him"  
+  bio              : "Graduate Researcher"
+  uri              :
+  email            : 
+  location         : 
+  employer         : "Aalto University"
+
+# Academic websites
+  googlescholar    : "https://scholar.google.com/citations?user=zLF0XpAAAAAJ&hl=en&oi=ao"
+  pubmed           : 
+  researchgate     : 
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "KoutchemeCharles"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : 
+  lastfm           :
+  linkedin         : "charles-koutcheme"
+  orcid            : "https://orcid.org/0000-0002-2272-2763"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : 
+  steam            :
+  tumblr           :
+  twitter          : 
+  huggingface      : "https://huggingface.co/koutch"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+# Site Settings
+
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -75,54 +121,14 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-
+  
 # Analytics
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
-
-# Site Author
-author:
-  name             : "Charlie"
-  avatar           : "Aalto-Talent-Expo-20221161.JPG"
-  bio              : "Doctoral researcher"
-  location         : 
-  employer         : "Aalto University"
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=zLF0XpAAAAAJ&hl=en&oi=ao"
-  email            : 
-  researchgate     : 
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "KoutchemeCharles"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : 
-  lastfm           :
-  linkedin         : "charles-koutcheme"
-  orcid            : "https://orcid.org/0000-0002-2272-2763"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : 
-  steam            :
-  tumblr           :
-  twitter          : 
-  huggingface      : "https://huggingface.co/koutch"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
-
+    
 # Reading Files
 include:
   - .htaccess
