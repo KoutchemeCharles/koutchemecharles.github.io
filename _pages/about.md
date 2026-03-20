@@ -7,8 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a doctoral researcher in the Computer Science department at Aalto University. My Ph.D. dissertation contributes methods to automate programming feedback using open-source language models, with a focus on supporting novice programmers in large-scale learning environments where individual feedback is hard to scale.
-The broader goal of my research is to move beyond systems that rely on large language models and instead build lightweight, locally deployable learning tools powered by small models. My work blends reinforcement learning and source code modelling approaches with knowledge from programming education to effectively support students.
+
+
+My work sits at the intersection of natural language processing, reinforcement learning, and programming education. A core thread running through my research is building lightweight, locally deployable tools powered by small models, rather than relying on large proprietary systems. 
+
+I recently completed my Ph.D. in Computer Science at Aalto University, where my research focused on automating programming feedback using open-source language models.
+
+You can find my full dissertation [here](https://aaltodoc.aalto.fi/items/b104a6ac-edc9-437d-af91-ad312714febe).
 
 ---
 ## Recent News
@@ -21,22 +26,21 @@ The broader goal of my research is to move beyond systems that rely on large lan
 
 > **15 September 2025**  
 > Two papers accepted at SIGCSE TS 2026!
-> * Aligning Small Language Models for Programming Feedback: Towards Scalable Coding Support in a Massive Global Course (first author)
-> * Fine-Tuning Open-Source Models as a Viable Alternative to Proprietary LLMs for Explaining Compiler Messages (second author)
->   
-> The first publication is the result of my research visit at Stanford. We created a [presentation page](https://koutche.me/cip25-aiep/).
-> The second publication came out from a collaboration with researchers at The University of New South Wales.
+> * *Aligning Small Language Models for Programming Feedback: Towards Scalable Coding Support in a Massive Global Course* (first author)
+> * *Fine-Tuning Open-Source Models as a Viable Alternative to Proprietary LLMs for Explaining Compiler Messages* (second author)
+>
+> The first came out of my research visit at Stanford — we also put together a [presentation page](https://koutche.me/cip25-aiep/). The second is a collaboration with researchers at The University of New South Wales.
 
 > **27 May 2025**  
-> Our paper *"Reinforcement Learning for Programming Feedback: Aligning Small Language Models Without Human Preferences"* (first author) has been accepted to [CSEDM 2025](https://sites.google.com/view/csedm-workshop-edm25/home).
+> Paper accepted at [CSEDM 2025](https://sites.google.com/view/csedm-workshop-edm25/home): *"Reinforcement Learning for Programming Feedback: Aligning Small Language Models Without Human Preferences"* (first author).
 
 > **24 May 2025**  
-> Great news! Our paper *"Direct Repair Optimization: Training Small Language Models for Educational Program Repair Improves Feedback Abilities"* (first author) has been accepted to [BEA 2025](https://sig-edu.org/bea/2025).
+> Paper accepted at [BEA 2025](https://sig-edu.org/bea/2025): *"Direct Repair Optimization: Training Small Language Models for Educational Program Repair Improves Feedback Abilities"* (first author).
 
 > **2 May 2025**  
-> I presented my recent research at [Berkeley's ACE Lab](https://acelab.berkeley.edu/), focusing on feedback generation with small language models.
+> Gave a talk at [Berkeley's ACE Lab](https://acelab.berkeley.edu/) on feedback generation with small language models.
 
 > **1 April 2025**  
-> I'm currently visiting the [Piech Lab](https://piechlab.stanford.edu/) at Stanford University through June 2025.
+> Started a research visit at the [Piech Lab](https://piechlab.stanford.edu/) at Stanford University (through June 2025).
 
 </div>
