@@ -8,14 +8,10 @@ redirect_from:
   - /about.html
 ---
 
+I am a postdoctoral researcher in the Computer Science department at Aalto University, working at the intersection of natural language processing and computing education. My research contributes methods for aligning language models with pedagogical objectives, with applications in automated programming feedback and simulated learners. Rather than relying on large proprietary systems, I focus particularly on lightweight, open models that can be safely deployed in educational contexts. 
 
-My work sits at the intersection of natural language processing, reinforcement learning, and programming education. A core thread running through my research is building lightweight, locally deployable tools powered by small models, rather than relying on large proprietary systems. 
+My PhD [dissertation](https://aaltodoc.aalto.fi/items/b104a6ac-edc9-437d-af91-ad312714febe) laid the groundwork for this.
 
-I recently completed my Ph.D. in Computer Science at Aalto University, where my research focused on automating programming feedback using open-source language models.
-
-You can find my full dissertation [here](https://aaltodoc.aalto.fi/items/b104a6ac-edc9-437d-af91-ad312714febe).
-
----
 ## Recent News
 
 <div style="height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 0 1em; margin-top: 0.5em;" markdown="1">
