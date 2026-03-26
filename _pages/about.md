@@ -33,21 +33,6 @@ My PhD [dissertation](https://aaltodoc.aalto.fi/items/b104a6ac-edc9-437d-af91-ad
 > **24 May 2025**  
 > Paper accepted at [BEA 2025](https://sig-edu.org/bea/2025): *"Direct Repair Optimization: Training Small Language Models for Educational Program Repair Improves Feedback Abilities"* (first author).
 
-
-## Spotlight
-
-<div style="margin-top: 0.5em;">
-  <p>
-    <strong><a href="https://koutche.me/cip25-aiep/">Aligning Small Language Models for Programming Feedback</a></strong> — 
-    SIGCSE TS 2026 · with Juliette Woodrow & Chris Piech
-  </p>
-  <iframe 
-    src="https://koutche.me/cip25-aiep/" 
-    style="width: 100%; height: 500px; border: 1px solid #ddd; border-radius: 6px;"
-    title="Aligning Small Language Models for Programming Feedback">
-  </iframe>
-</div>
-
 > **2 May 2025**  
 > Gave a talk at [Berkeley's ACE Lab](https://acelab.berkeley.edu/) on feedback generation with small language models.
 
