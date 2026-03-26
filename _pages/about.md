@@ -12,6 +12,18 @@ I am a postdoctoral researcher in the Computer Science department at Aalto Unive
 
 My PhD [dissertation](https://aaltodoc.aalto.fi/items/b104a6ac-edc9-437d-af91-ad312714febe) laid the groundwork for this.
 
+## Spotlight
+
+<div style="display: flex; gap: 1.2em; align-items: flex-start; margin-top: 0.5em;">
+  <img src="/images/papers/sigcse26.png" alt="Aligning Small Language Models for Programming Feedback" style="width: 180px; flex-shrink: 0; border-radius: 4px;">
+  <div>
+    <strong><a href="https://dl.acm.org/doi/10.1145/3770762.3772539">Aligning Small Language Models for Programming Feedback: Towards Scalable Coding Support in a Massive Global Course</a></strong><br>
+    Charles Koutcheme, Juliette Woodrow, Chris Piech<br>
+    <em>57th ACM Technical Symposium on Computer Science Education (SIGCSE TS 2026)</em><br><br>
+    We fine-tune small, open language models to provide programming feedback at scale — matching proprietary systems while remaining deployable in privacy-sensitive educational settings. This work came out of my research visit at Stanford's Piech Lab. <a href="https://koutche.me/cip25-aiep/">Presentation page →</a>
+  </div>
+</div>
+
 ## Recent News
 
 <div style="height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 0 1em; margin-top: 0.5em;" markdown="1">
