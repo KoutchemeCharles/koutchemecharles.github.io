@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Hello there, welcome!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm Charlie, I am a postdoctoral researcher in the Computer Science department at Aalto University, working at the intersection of natural language processing and computing education. I am developping methods and frameworks for aligning language models with pedagogical objectives, with applications in automated programming feedback generation and evaluation, and simulated learners. I focus particularly on lightweight, open models that can be safely deployed in educational contexts. 
+My name is Charles but everyone calls me Charlie. I am a postdoctoral researcher in the Computer Science department at Aalto University, working at the intersection of natural language processing and computing education. I am developping methods and frameworks for aligning language models with pedagogical objectives, with applications in automated programming feedback generation and evaluation, and simulated learners. I focus particularly on lightweight, open models that can be safely deployed in educational contexts. 
 
 My PhD [dissertation](https://aaltodoc.aalto.fi/items/b104a6ac-edc9-437d-af91-ad312714febe) laid the groundwork for this.
 
