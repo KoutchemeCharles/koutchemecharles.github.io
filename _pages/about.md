@@ -16,7 +16,10 @@ My PhD [dissertation](https://aaltodoc.aalto.fi/items/b104a6ac-edc9-437d-af91-ad
 
 <div style="height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 0 1em; margin-top: 0.5em;" markdown="1">
 
-> **20th Match 2026**  
+> **30th April 2026**  
+> Our paper, "Teaching Language Models How to Code Like Learners: Conversational Serialization for Student Simulation" was accepted at EDM2026! I'll present the paper in Koreea. 
+
+> **20th February 2026**  
 > I have succesfully defended my PhD!
 
 > **5 December 2025**  
