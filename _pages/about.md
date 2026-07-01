@@ -16,8 +16,11 @@ My PhD [dissertation](https://aaltodoc.aalto.fi/items/b104a6ac-edc9-437d-af91-ad
 
 <div style="height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 0 1em; margin-top: 0.5em;" markdown="1">
 
+> **29th May 2026**  
+> Our papers, "Artificial Programming Students as Tool Calling Agents" (first author) and "Small Language Models for Generating Code Comments" were accepted at the [CSEDM workshop](https://sites.google.com/view/csedm-workshop-edm26/schedule-proceedings)!
+
 > **30th April 2026**  
-> Our paper, "Teaching Language Models How to Code Like Learners: Conversational Serialization for Student Simulation" was accepted at EDM2026! I'll present the paper in Koreea. 
+> Our [paper](https://educationaldatamining.org/wp-content/uploads/2026/proceedings/2026.EDM.short-papers/2026.EDM.short-papers.181.pdf), "Teaching Language Models How to Code Like Learners: Conversational Serialization for Student Simulation" was accepted at EDM2026! I'll present the paper in Koreea. 
 
 > **20th February 2026**  
 > I have succesfully defended my PhD!
