@@ -4,7 +4,7 @@ authors: 'Charles Koutcheme, Juliette Woodrow, Chris Piech'
 collection: publications
 paperurl: https://dl.acm.org/doi/10.1145/3770762.3772539
 permalink: 
-date: 15-09-2025
+date: 17-02-2026
 venue: '57th ACM Technical Symposium on Computer Science Education (SIGCSE TS 2026)'
 image: images/papers/sigcse26.png
 ---
