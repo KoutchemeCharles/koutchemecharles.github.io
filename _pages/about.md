@@ -14,7 +14,16 @@ My PhD [dissertation](https://aaltodoc.aalto.fi/items/b104a6ac-edc9-437d-af91-ad
 
 ## News
 
-<div style="max-height: 500px; overflow-y: auto; padding: 0.5em;" markdown="0">
+<div style="
+max-height: 500px;
+overflow-y: auto;
+padding: 1em;
+margin: 1em 0;
+border: 1px solid #ccc;
+border-radius: 10px;
+background: #fafafa;
+box-shadow: inset 0 0 6px rgba(0,0,0,0.04);
+" markdown="0">
 {% for item in site.data.news %}
 {% include archive-news.html date=item.date title=item.title excerpt=item.excerpt link=item.link image=item.image %}
 {% endfor %}
