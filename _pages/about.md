@@ -14,39 +14,106 @@ My PhD [dissertation](https://aaltodoc.aalto.fi/items/b104a6ac-edc9-437d-af91-ad
 
 ## News
 
-<div style="height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 0 1em; margin-top: 0.5em;" markdown="1">
+<div style="max-height: 500px; overflow-y: auto; padding: 0.5em;">
+<style>
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1em;
+}
+.news-card {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1em 1.2em;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.news-card:hover {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.news-card .news-date {
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #767676;
+  display: block;
+  margin-bottom: 0.4em;
+}
+.news-card .news-title {
+  font-weight: 600;
+  margin-bottom: 0.3em;
+  display: block;
+}
+.news-card .news-desc {
+  font-size: 0.92em;
+  color: #444;
+}
+</style>
 
-> **29th May 2026**  
-> Our papers, "Artificial Programming Students as Tool Calling Agents" (first author) and "Small Language Models for Generating Code Comments" were accepted at the [CSEDM workshop](https://sites.google.com/view/csedm-workshop-edm26/schedule-proceedings)!
+<div class="news-grid" markdown="0">
 
-> **30th April 2026**  
-> Our [paper](https://educationaldatamining.org/wp-content/uploads/2026/proceedings/2026.EDM.short-papers/2026.EDM.short-papers.181.pdf), "Teaching Language Models How to Code Like Learners: Conversational Serialization for Student Simulation" was accepted at EDM2026! I'll present the paper 3rd of July in Korea. Update: [slides](/files/edm2026_slides_final.html) are available.
+<a class="news-card" href="/files/edm2026_slides_final.html">
+  <span class="news-date">29 May 2026</span>
+  <span class="news-title">CSEDM Workshop — 2 papers accepted</span>
+  <span class="news-desc">"Artificial Programming Students as Tool Calling Agents" (first author) and "Small Language Models for Generating Code Comments"</span>
+</a>
 
-> **20th February 2026**  
-> I have succesfully defended my PhD!
+<a class="news-card" href="/files/edm2026_slides_final.html">
+  <span class="news-date">30 Apr 2026</span>
+  <span class="news-title">EDM 2026 — Paper accepted</span>
+  <span class="news-desc">"Teaching Language Models How to Code Like Learners" — presented 3rd July in Korea. Slides available.</span>
+</a>
 
-> **5 December 2025**  
-> My Ph.D thesis has been accepted for defense!
-> [Defense information](https://www.aalto.fi/en/events/public-defence-in-computer-science-msc-charles-koutcheme)
+<a class="news-card" href="https://www.aalto.fi/en/events/public-defence-in-computer-science-msc-charles-koutcheme">
+  <span class="news-date">20 Feb 2026</span>
+  <span class="news-title">PhD defended</span>
+  <span class="news-desc">Successfully defended my PhD!</span>
+</a>
 
-> **15 September 2025**  
-> Two papers accepted at [SIGCSE TS 2026](https://sigcse2026.sigcse.org/)!
-> * *Aligning Small Language Models for Programming Feedback: Towards Scalable Coding Support in a Massive Global Course* (first author)
-> * *Fine-Tuning Open-Source Models as a Viable Alternative to Proprietary LLMs for Explaining Compiler Messages* (second author)
->
-> The first came out of my research visit at Stanford, we also put together a [presentation page](https://koutche.me/cip25-aiep/).
-> The second is a collaboration with researchers at The University of New South Wales.
+<a class="news-card" href="https://www.aalto.fi/en/events/public-defence-in-computer-science-msc-charles-koutcheme">
+  <span class="news-date">5 Dec 2025</span>
+  <span class="news-title">Thesis accepted for defense</span>
+  <span class="news-desc">My PhD thesis has been accepted for defense.</span>
+</a>
 
-> **27 May 2025**  
-> Paper accepted at [CSEDM 2025](https://sites.google.com/view/csedm-workshop-edm25/home): *"Reinforcement Learning for Programming Feedback: Aligning Small Language Models Without Human Preferences"* (first author).
+<a class="news-card" href="https://sigcse2026.sigcse.org/">
+  <span class="news-date">15 Sep 2025</span>
+  <span class="news-title">2 papers at SIGCSE TS 2026</span>
+  <span class="news-desc">"Aligning Small Language Models for Programming Feedback" (first author, from Stanford visit) and "Fine-Tuning Open-Source Models..." with UNSW</span>
+</a>
 
-> **24 May 2025**  
-> Paper accepted at [BEA 2025](https://sig-edu.org/bea/2025): *"Direct Repair Optimization: Training Small Language Models for Educational Program Repair Improves Feedback Abilities"* (first author).
+<a class="news-card" href="/cip25-aiep/">
+  <span class="news-date">15 Sep 2025</span>
+  <span class="news-title">Code In Place presentation page</span>
+  <span class="news-desc">Presentation page for the Stanford visit paper</span>
+</a>
 
-> **2 May 2025**  
-> Gave a talk at [Berkeley's ACE Lab](https://acelab.berkeley.edu/) on feedback generation with small language models.
+<a class="news-card" href="https://sites.google.com/view/csedm-workshop-edm25/home">
+  <span class="news-date">27 May 2025</span>
+  <span class="news-title">CSEDM 2025 — Paper accepted</span>
+  <span class="news-desc">"Reinforcement Learning for Programming Feedback" (first author)</span>
+</a>
 
-> **1 April 2025**  
-> Started a research visit at the [Piech Lab](https://piechlab.stanford.edu/) at Stanford University (through June 2025).
+<a class="news-card" href="https://sig-edu.org/bea/2025">
+  <span class="news-date">24 May 2025</span>
+  <span class="news-title">BEA 2025 — Paper accepted</span>
+  <span class="news-desc">"Direct Repair Optimization" (first author)</span>
+</a>
 
+<a class="news-card" href="https://acelab.berkeley.edu/">
+  <span class="news-date">2 May 2025</span>
+  <span class="news-title">Talk at Berkeley's ACE Lab</span>
+  <span class="news-desc">Feedback generation with small language models</span>
+</a>
+
+<a class="news-card" href="https://piechlab.stanford.edu/">
+  <span class="news-date">1 Apr 2025</span>
+  <span class="news-title">Research visit at Piech Lab, Stanford</span>
+  <span class="news-desc">Through June 2025</span>
+</a>
+
+</div>
 </div>
