@@ -15,105 +15,87 @@ My PhD [dissertation](https://aaltodoc.aalto.fi/items/b104a6ac-edc9-437d-af91-ad
 ## News
 
 <div style="max-height: 500px; overflow-y: auto; padding: 0.5em;">
-<style>
-.news-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1em;
-}
-.news-card {
-  display: block;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1em 1.2em;
-  text-decoration: none;
-  color: inherit;
-  transition: box-shadow 0.15s ease, transform 0.15s ease;
-}
-.news-card:hover {
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  transform: translateY(-2px);
-  text-decoration: none;
-}
-.news-card .news-date {
-  font-size: 0.85em;
-  font-weight: 600;
-  color: #767676;
-  display: block;
-  margin-bottom: 0.4em;
-}
-.news-card .news-title {
-  font-weight: 600;
-  margin-bottom: 0.3em;
-  display: block;
-}
-.news-card .news-desc {
-  font-size: 0.92em;
-  color: #444;
-}
-</style>
+<ul class="list__group" style="list-style: none; padding: 0; margin: 0;" markdown="0">
 
-<div class="news-grid" markdown="0">
+<li class="archive-item">
+  <a href="/files/edm2026_slides_final.html" style="text-decoration: none; color: inherit;">
+    <span style="font-size: 0.8em; color: #767676;">29 May 2026</span>
+    <h3 class="archive-item-title" style="margin: 0.2em 0;">CSEDM Workshop — 2 papers accepted</h3>
+    <p class="archive-item-excerpt" style="margin: 0;">"Artificial Programming Students as Tool Calling Agents" (first author) and "Small Language Models for Generating Code Comments"</p>
+  </a>
+</li>
 
-<a class="news-card" href="/files/edm2026_slides_final.html">
-  <span class="news-date">29 May 2026</span>
-  <span class="news-title">CSEDM Workshop — 2 papers accepted</span>
-  <span class="news-desc">"Artificial Programming Students as Tool Calling Agents" (first author) and "Small Language Models for Generating Code Comments"</span>
-</a>
+<li class="archive-item">
+  <a href="/files/edm2026_slides_final.html" style="text-decoration: none; color: inherit;">
+    <span style="font-size: 0.8em; color: #767676;">30 Apr 2026</span>
+    <h3 class="archive-item-title" style="margin: 0.2em 0;">EDM 2026 — Paper accepted</h3>
+    <p class="archive-item-excerpt" style="margin: 0;">"Teaching Language Models How to Code Like Learners" — presented 3rd July in Korea. Slides available.</p>
+  </a>
+</li>
 
-<a class="news-card" href="/files/edm2026_slides_final.html">
-  <span class="news-date">30 Apr 2026</span>
-  <span class="news-title">EDM 2026 — Paper accepted</span>
-  <span class="news-desc">"Teaching Language Models How to Code Like Learners" — presented 3rd July in Korea. Slides available.</span>
-</a>
+<li class="archive-item">
+  <a href="https://www.aalto.fi/en/events/public-defence-in-computer-science-msc-charles-koutcheme" style="text-decoration: none; color: inherit;">
+    <span style="font-size: 0.8em; color: #767676;">20 Feb 2026</span>
+    <h3 class="archive-item-title" style="margin: 0.2em 0;">PhD defended</h3>
+    <p class="archive-item-excerpt" style="margin: 0;">Successfully defended my PhD!</p>
+  </a>
+</li>
 
-<a class="news-card" href="https://www.aalto.fi/en/events/public-defence-in-computer-science-msc-charles-koutcheme">
-  <span class="news-date">20 Feb 2026</span>
-  <span class="news-title">PhD defended</span>
-  <span class="news-desc">Successfully defended my PhD!</span>
-</a>
+<li class="archive-item">
+  <a href="https://www.aalto.fi/en/events/public-defence-in-computer-science-msc-charles-koutcheme" style="text-decoration: none; color: inherit;">
+    <span style="font-size: 0.8em; color: #767676;">5 Dec 2025</span>
+    <h3 class="archive-item-title" style="margin: 0.2em 0;">Thesis accepted for defense</h3>
+    <p class="archive-item-excerpt" style="margin: 0;">My PhD thesis has been accepted for defense.</p>
+  </a>
+</li>
 
-<a class="news-card" href="https://www.aalto.fi/en/events/public-defence-in-computer-science-msc-charles-koutcheme">
-  <span class="news-date">5 Dec 2025</span>
-  <span class="news-title">Thesis accepted for defense</span>
-  <span class="news-desc">My PhD thesis has been accepted for defense.</span>
-</a>
+<li class="archive-item">
+  <a href="https://sigcse2026.sigcse.org/" style="text-decoration: none; color: inherit;">
+    <span style="font-size: 0.8em; color: #767676;">15 Sep 2025</span>
+    <h3 class="archive-item-title" style="margin: 0.2em 0;">2 papers accepted at SIGCSE TS 2026</h3>
+    <p class="archive-item-excerpt" style="margin: 0;">"Aligning Small Language Models for Programming Feedback" (first author, from Stanford visit) and "Fine-Tuning Open-Source Models..." with UNSW</p>
+  </a>
+</li>
 
-<a class="news-card" href="https://sigcse2026.sigcse.org/">
-  <span class="news-date">15 Sep 2025</span>
-  <span class="news-title">2 papers at SIGCSE TS 2026</span>
-  <span class="news-desc">"Aligning Small Language Models for Programming Feedback" (first author, from Stanford visit) and "Fine-Tuning Open-Source Models..." with UNSW</span>
-</a>
+<li class="archive-item">
+  <a href="/cip25-aiep/" style="text-decoration: none; color: inherit;">
+    <span style="font-size: 0.8em; color: #767676;">15 Sep 2025</span>
+    <h3 class="archive-item-title" style="margin: 0.2em 0;">Code In Place presentation page</h3>
+    <p class="archive-item-excerpt" style="margin: 0;">Presentation page for the Stanford visit paper</p>
+  </a>
+</li>
 
-<a class="news-card" href="/cip25-aiep/">
-  <span class="news-date">15 Sep 2025</span>
-  <span class="news-title">Code In Place presentation page</span>
-  <span class="news-desc">Presentation page for the Stanford visit paper</span>
-</a>
+<li class="archive-item">
+  <a href="https://sites.google.com/view/csedm-workshop-edm25/home" style="text-decoration: none; color: inherit;">
+    <span style="font-size: 0.8em; color: #767676;">27 May 2025</span>
+    <h3 class="archive-item-title" style="margin: 0.2em 0;">CSEDM 2025 — Paper accepted</h3>
+    <p class="archive-item-excerpt" style="margin: 0;">"Reinforcement Learning for Programming Feedback" (first author)</p>
+  </a>
+</li>
 
-<a class="news-card" href="https://sites.google.com/view/csedm-workshop-edm25/home">
-  <span class="news-date">27 May 2025</span>
-  <span class="news-title">CSEDM 2025 — Paper accepted</span>
-  <span class="news-desc">"Reinforcement Learning for Programming Feedback" (first author)</span>
-</a>
+<li class="archive-item">
+  <a href="https://sig-edu.org/bea/2025" style="text-decoration: none; color: inherit;">
+    <span style="font-size: 0.8em; color: #767676;">24 May 2025</span>
+    <h3 class="archive-item-title" style="margin: 0.2em 0;">BEA 2025 — Paper accepted</h3>
+    <p class="archive-item-excerpt" style="margin: 0;">"Direct Repair Optimization" (first author)</p>
+  </a>
+</li>
 
-<a class="news-card" href="https://sig-edu.org/bea/2025">
-  <span class="news-date">24 May 2025</span>
-  <span class="news-title">BEA 2025 — Paper accepted</span>
-  <span class="news-desc">"Direct Repair Optimization" (first author)</span>
-</a>
+<li class="archive-item">
+  <a href="https://acelab.berkeley.edu/" style="text-decoration: none; color: inherit;">
+    <span style="font-size: 0.8em; color: #767676;">2 May 2025</span>
+    <h3 class="archive-item-title" style="margin: 0.2em 0;">Talk at Berkeley's ACE Lab</h3>
+    <p class="archive-item-excerpt" style="margin: 0;">Feedback generation with small language models</p>
+  </a>
+</li>
 
-<a class="news-card" href="https://acelab.berkeley.edu/">
-  <span class="news-date">2 May 2025</span>
-  <span class="news-title">Talk at Berkeley's ACE Lab</span>
-  <span class="news-desc">Feedback generation with small language models</span>
-</a>
+<li class="archive-item">
+  <a href="https://piechlab.stanford.edu/" style="text-decoration: none; color: inherit;">
+    <span style="font-size: 0.8em; color: #767676;">1 Apr 2025</span>
+    <h3 class="archive-item-title" style="margin: 0.2em 0;">Research visit at Piech Lab, Stanford</h3>
+    <p class="archive-item-excerpt" style="margin: 0;">Through June 2025</p>
+  </a>
+</li>
 
-<a class="news-card" href="https://piechlab.stanford.edu/">
-  <span class="news-date">1 Apr 2025</span>
-  <span class="news-title">Research visit at Piech Lab, Stanford</span>
-  <span class="news-desc">Through June 2025</span>
-</a>
-
-</div>
+</ul>
 </div>
