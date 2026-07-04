@@ -19,10 +19,9 @@ max-height: 500px;
 overflow-y: auto;
 padding: 1em;
 margin: 1em 0;
-border: 1px solid #ccc;
+border: 1px solid rgba(128,128,128,0.35);
 border-radius: 10px;
-background: #fafafa;
-box-shadow: inset 0 0 6px rgba(0,0,0,0.04);
+background: rgba(128,128,128,0.06);
 " markdown="0">
 {% for item in site.data.news %}
 {% include archive-news.html date=item.date title=item.title excerpt=item.excerpt link=item.link image=item.image %}
