@@ -1,56 +1,59 @@
 - date: "29 May 2026"
-  title: "CSEDM Workshop — 2 papers accepted"
+  title: "2 papers accepted at CSEDM Workshop"
   excerpt: >
-    "Artificial Programming Students as Tool Calling Agents" (first author) and
-    "Small Language Models for Generating Code Comments"
-  link: "/files/edm2026_slides_final.html"
+    Our papers "Artificial Programming Students as Tool Calling Agents" (first author) and
+    "Small Language Models for Generating Code Comments" have been accepted.
+  link: "https://sites.google.com/view/csedm-workshop-edm26/schedule-proceedings?authuser=0"
 
 - date: "30 Apr 2026"
-  title: "EDM 2026 — Paper accepted"
+  title: "Paper accepted at EDM 2026"
   excerpt: >
-    "Teaching Language Models How to Code Like Learners" — presented 3rd July
-    in Korea. Slides available.
+    Our paper "Teaching Language Models How to Code Like Learners" (first author) has been accepted.
+    Update: Slides are available.
   link: "/files/edm2026_slides_final.html"
 
 - date: "20 Feb 2026"
   title: "PhD defended"
-  excerpt: "Successfully defended my PhD!"
+  excerpt: "I successfully defended my PhD!"
   link: "https://www.aalto.fi/en/events/public-defence-in-computer-science-msc-charles-koutcheme"
 
-- date: "5 Dec 2025"
-  title: "Thesis accepted for defense"
-  excerpt: "My PhD thesis has been accepted for defense."
-  link: "https://www.aalto.fi/en/events/public-defence-in-computer-science-msc-charles-koutcheme"
+- date: "15 Sep 2025"
+  title: "Code In Place presentation page"
+  excerpt: >
+    We created a presentation page for our work on aligning small language models
+    for programming feedback.
+  link: "/cip25-aiep/"
 
 - date: "15 Sep 2025"
   title: "2 papers accepted at SIGCSE TS 2026"
   excerpt: >
-    "Aligning Small Language Models for Programming Feedback" (first author,
-    from Stanford visit) and "Fine-Tuning Open-Source Models as a Viable
-    Alternative to Proprietary LLMs" with UNSW
+    Our papers "Aligning Small Language Models for Programming Feedback" (first author,
+    from my Stanford visit) and "Fine-Tuning Open-Source Models as a Viable Alternative
+    to Proprietary LLMs" (with UNSW) have been accepted.
   link: "https://sigcse2026.sigcse.org/"
 
-- date: "15 Sep 2025"
-  title: "Code In Place presentation page"
-  excerpt: "Presentation page for the Stanford visit paper"
-  link: "/cip25-aiep/"
-
 - date: "27 May 2025"
-  title: "CSEDM 2025 — Paper accepted"
-  excerpt: '"Reinforcement Learning for Programming Feedback" (first author)'
+  title: "Paper accepted at CSEDM 2025"
+  excerpt: >
+    Our paper "Reinforcement Learning for Programming Feedback: Aligning Small Language
+    Models Without Human Preferences" (first author) has been accepted.
   link: "https://sites.google.com/view/csedm-workshop-edm25/home"
 
 - date: "24 May 2025"
-  title: "BEA 2025 — Paper accepted"
-  excerpt: '"Direct Repair Optimization" (first author)'
+  title: "Paper accepted at BEA 2025"
+  excerpt: >
+    Our paper "Direct Repair Optimization: Training Small Language Models for
+    Educational Program Repair Improves Feedback Abilities" (first author) has been accepted.
   link: "https://sig-edu.org/bea/2025"
 
 - date: "2 May 2025"
   title: "Talk at Berkeley's ACE Lab"
-  excerpt: "Feedback generation with small language models"
+  excerpt: >
+    I gave a talk on feedback generation with small language models.
   link: "https://acelab.berkeley.edu/"
 
 - date: "1 Apr 2025"
   title: "Research visit at Piech Lab, Stanford"
-  excerpt: "Through June 2025"
+  excerpt: >
+    I started a research visit at the Piech Lab, through June 2025.
   link: "https://piechlab.stanford.edu/"
